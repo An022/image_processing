@@ -1,5 +1,5 @@
 """
-File: fire.py
+File: fire_alarm.py
 Name: An Lee
 ---------------------------------
 This file contains a method called
