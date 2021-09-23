@@ -1,7 +1,6 @@
 """
-File: stanCodoshop.py
+File: mini_pohtoshop
 ----------------------------------------------
-SC101_Assignment3
 Adapted from Nick Parlante's
 Ghost assignment by Jerry Liao.
 Name: An Lee
