@@ -31,7 +31,7 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
   :return: SimpleImage, With doubling the original height, the new imagine size will be twice as the original one
   and combined by the original image and a mirror image.
   ```
-* [03_blur_and_shrink](https://github.com/An022/self_learning-image_processing/tree/main/03_blur_and_shrink)\
+* [03_blur_and_shrink](https://github.com/An022/self_learning-image_processing/tree/main/03_blur_and_shrink)
   * [blur](https://github.com/An022/self_learning-image_processing/blob/main/03_blur_and_shrink/blur.py)\
     “Blur” shows the original image first, and then compares to its blurred image.\
     The blur algorithm uses the average RGB values of a pixel's nearest neighbors.
