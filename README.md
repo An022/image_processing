@@ -32,30 +32,30 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
   and combined by the original image and a mirror image.
   ```
 * [03_blur_and_shrink]
-* [blur](https://github.com/An022/self_learning-image_processing/blob/main/03_blur_and_shrink/blur.py)\
-  “Blur” shows the original image first, and then compares to its blurred image.\
-  The blur algorithm uses the average RGB values of a pixel's nearest neighbors.
-  
-  ```
-  This file shows the original image first, smiley-face.png, and then compare to its blurred image. 
-  
-  pre-condition: 
-  :param img: str, the file path of the original background image.
-  post-condition: 
-  :return:SimpleImage, the blurred version of the original image.
-  ```
-* [shrink](https://github.com/An022/self_learning-image_processing/blob/main/03_blur_and_shrink/shrink.py)
-  "Shirnk" produces a image with 1/2 width and 1/2 height of the original imagine.
-  
-  ```
-  Create a new "out" image half the width and height of the original.
-  Set pixels at x=0 1 2 3 in out , from x=0 2 4 6 in original,and likewise in the y direction.
-  
-  pre-condition: 
-  :param filename: str, the file path of the original colored image.
-  post-condition:
-  :return img: SimpleImage, the shrink imagine with 1/2 width and 1/2 height of original img.
-  ```
+  * [blur](https://github.com/An022/self_learning-image_processing/blob/main/03_blur_and_shrink/blur.py)\
+    “Blur” shows the original image first, and then compares to its blurred image.\
+    The blur algorithm uses the average RGB values of a pixel's nearest neighbors.
+
+    ```
+    This file shows the original image first, smiley-face.png, and then compare to its blurred image. 
+
+    pre-condition: 
+    :param img: str, the file path of the original background image.
+    post-condition: 
+    :return:SimpleImage, the blurred version of the original image.
+    ```
+  * [shrink](https://github.com/An022/self_learning-image_processing/blob/main/03_blur_and_shrink/shrink.py)
+    "Shirnk" produces a image with 1/2 width and 1/2 height of the original imagine.
+
+    ```
+    Create a new "out" image half the width and height of the original.
+    Set pixels at x=0 1 2 3 in out , from x=0 2 4 6 in original,and likewise in the y direction.
+
+    pre-condition: 
+    :param filename: str, the file path of the original colored image.
+    post-condition:
+    :return img: SimpleImage, the shrink imagine with 1/2 width and 1/2 height of original img.
+    ```
 * [04_green_screen](https://github.com/An022/self_learning-image_processing/blob/main/04_green_screen/green_screen.py)\
   Greenscreen creates a new image that removes the background and replaces the green pixels in it.
 
