@@ -1,10 +1,10 @@
 """
-File: find Willy.py
+File: find Wally.py
 Name: An Lee
 ----------------------------------
 Combine the figure and background, then make whole new image left only two color: black and white.
 Then make a maze with original background to hide the figure.
-Let's play "find Willy" !
+Let's play "find Wally" !
 """
 from simpleimage import SimpleImage
 
@@ -94,14 +94,14 @@ def main():
     """
     Combine the figure and background, then make whole new image left only two color: black and white.
     Then make a maze with original background to hide the figure.
-    Let's play "find Willy" !
+    Let's play "find Wally" !
     """
-    find_willy = SimpleImage("images/starwar.png")
+    find_wally = SimpleImage("images/starwar.png")
     figure = SimpleImage("images/An.png")
-    find_willy.make_as_big_as(figure)
-    result = combine(find_willy, figure)
+    find_wally.make_as_big_as(figure)
+    result = combine(find_wally, figure)
     comic_world = black_white(result)
-    puzzle = build_puzzle(find_willy, comic_world)
+    puzzle = build_puzzle(find_wally, comic_world)
     puzzle.show()
 
 
