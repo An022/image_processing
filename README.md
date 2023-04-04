@@ -84,13 +84,13 @@ Reference to Stanford University’s assignment CS106AP: Programming Methodologi
   :return:The image with the fire area will be highlighted by full red 
           while other safe areas' color will be turned into gray scale.
   ```
-* [06_find_willy](https://github.com/An022/self_learning-image_processing/blob/main/06_find_willy/find_willy.py)\
-  Duplicating multiple starwar picture and combining my own picture together to create a new version game of "find willy".
+* [06_find_wally](https://github.com/An022/self_learning-image_processing/blob/main/06_find_wally/find_wally.py)\
+  Duplicating multiple starwar picture and combining my own picture together to create a new version game of "find wally".
 
   ```
   Combine the figure and background, then make whole new image left only two color: black and white.
   Then make a maze with original background to hide the figure.
-  Let's play "find Willy" !
+  Let's play "find Wally" !
   
   pre-condition:
   :param background_img: str, the file path of the original background image.
